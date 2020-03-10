@@ -1,1 +1,101 @@
-"Hello World" 
+<html>
+
+    <head>
+    <title>Home</title>
+      <!--import my CSS-->
+    <link rel="stylesheet" type="text/css"  href="mycss.css">
+    
+      <!--import bootstrap link libary-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    </head>
+
+    
+    
+    <body>
+        
+<!-- Navigator bar from bootstraps(homepage active)-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <div class="navbar-brand">Sawarin Jankapor</div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active" ><a href="homepage.html"> Home page  <span class="glyphicon glyphicon-home"></span></a></li>
+        <li><a href="Aboutme.html">About me </a></li>
+        <li><a href="contact.html">Contact</a></li> 
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+        
+ 
+     
+            
+     
+     <!--use container bootstrap for open in other device-->
+<div class="container"> 
+    
+    <div class="row">
+                <div class="col-md-4 hidden-sm hidden-xs">
+                    <div class="TopFirst"> 
+                        <div class="profilepic">
+                            <div class="Ani"> 
+                                <a href="Aboutme.html"  ><image src="me.jpg" class="img-circle" style="width:240px;height:240px;"></image></a></div>
+                           
+                        </div>
+                        </div>
+                </div>
+        <!--only show this if device is small-->
+                <div class="col-md-4 col-sm-8 col-xs-12">
+                    <div class="Top">
+                     Sawarin
+            </div>
+                </div>
+                <div class="col-md-4 col-sm-4 hidden-xs">
+                    <div class="Top">
+                     Jankapor
+                         </div>
+                </div>
+            </div>
+    
+    <div class="row">
+        <div class="col-md-1 hidden-sm hidden-xs">
+                    
+                </div>
+                <div class="col-md-1 col-sm-4 hidden-xs">
+                   
+                </div>
+                <div class="col-md-10 col-sm-8 hidden-xs">
+                    <div class="Cent">  The only true wisdom is in knowing you know nothing. </div>
+                </div>
+            </div>
+        
+        
+        
+        
+    </div>
+    
+  
+    </body>
+        
+        
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,138 @@
+/*
+set standard every page body
+*/
+body
+{
+    
+    background-color: dimgray;   
+    background-image: url("background.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:49% 0%;
+    margin-top: 200px;
+    background-attachment:fixed;
+}
+
+
+/*
+
+Import new font
+*/
+@font-face {
+   font-family: mynewFont;
+   src: url(new-font.ttf);
+}
+/*
+
+
+object of top page
+
+*/
+.Top
+{  
+    margin-top: 90px;
+    margin-right: 10px;
+    font-size: 64px;
+    color:black;
+    font-weight: bold;
+    font-family:mynewFont;
+    
+   text-shadow: 5px 5px white;
+}
+
+
+.TopFirst
+{
+    margin-top: 90px;
+    float:right;
+}
+/*
+object of center
+
+*/
+ .Cent
+{
+    
+   margin-top: -80px;
+    margin-right: -90px;
+   float: right;
+    font-size: 26px;
+    color:black;
+    font-weight: bold;
+    font-family:mynewFont;
+    
+   text-shadow: 5px 5px white;
+}
+
+
+/*Set margin image*/
+.profilepic
+{
+     margin-top: -35px;
+        margin-left: -350px;
+}
+
+/*2d animation*/
+.Ani
+{
+    
+    transition:transform 2.5s;
+
+    
+}
+ .Ani:hover
+{
+    
+    transform:scale(1,1) rotate(360deg);
+  
+}
+
+/*set font of topic*/
+.topic
+{
+    
+color:darkblue;
+font-weight: bold;
+    font-size: 21px;
+    text-align: right;
+    
+    
+}
+/*set font of detail*/
+.detail
+{
+    font-size:16px;
+    font-weight: 800;  
+ 
+    
+    
+    
+}
+/*set font of text*/
+.text
+{
+    
+    
+    font-size:16px;
+    
+}
+
+/*set text top of page about me*/
+.topAbout
+{  
+    
+    font-size: 32px;
+    text-align: center;
+    color:dodgerblue;
+    font-weight: bold;
+    font-family:mynewFont;
+
+   text-shadow: 5px 5px black;
+}
+
+
+
+
+
+
+
